@@ -4,7 +4,9 @@
   "description": "Directorio deprueba para aprender git y node\u001b[D\u001b[D\u001b[C\u001b[D\u001b[N\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[CG\u001b[C\u001b[C\u001b[D\u001b[Dit y Node",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "Karhenpe",
   "license": "ISC",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KarenHdzP/reponodeandgit/issues"
   },
-  "homepage": "https://github.com/KarenHdzP/reponodeandgit#readme"
+  "homepage": "https://github.com/KarenHdzP/reponodeandgit#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
